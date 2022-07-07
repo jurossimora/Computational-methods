@@ -16,3 +16,19 @@ project/
 *    └── README.md
 ```
 In the `R` directory you will find the scripts. Let's start using R!
+
+ok
+
+organizing a script:
+
+a header containing who, how, when, where, and why METADATA
+
+a part loading all needed packages from the begining with library()*
+
+reads needed data (empty workspace)
+
+Coding a variable that will not change
+
+Commenting every step
+
+Writing in the HD the result from each step
