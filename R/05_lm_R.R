@@ -26,7 +26,7 @@ summary(mod_cat)
 
 
 ## ----lm-plot------------------------------------------------------------------
-plot(growth ~ tannin, data = cat, bty = 'l', pch = 19)
+plot(growth ~ tannin, data = cat, bty = 'l', pch = 19, las=1)
 abline(mod_cat, col = "red", lwd = 2)
 
 
