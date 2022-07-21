@@ -22,7 +22,7 @@ length(data_list)
 # Inspecting data
 head(data_list$envir)
 dim(data_list$envir)
-summary(data_list$envir)
+summary(envir$envir)
 
 # Output 1: summary table ------------------------------------------------------
 
