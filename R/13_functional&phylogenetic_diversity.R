@@ -9,8 +9,8 @@ library(dplyr)
 library(taxize)
 
 #data
-comm <- read.csv("data/cestes/cestes/comm.csv")
-traits <- read.csv("data/cestes/cestes/traits.csv")
+comm <- read.csv("data/raw/cestes/comm.csv")
+traits <- read.csv("data/raw/cestes/traits.csv")
 
 head(comm)[,1:6]
 
@@ -58,7 +58,7 @@ names(FuncDiv1)
 #We can also do the calculation using the traits matrix directly
 FuncDiv <- dbFD(x = traits, a = comm, messages = F)
 
-splist <- read.csv("data/cestes/cestes/splist.csv")
+splist <- read.csv("data/raw/cestes/splist.csv")
 splist$TaxonName
 
 #library("taxize")
