@@ -1,14 +1,18 @@
 ---
 title: 'Scientific workflows: report'
 author:
-- Andrea Sánchez-Tapia ^*1*^, Sara R. Mortara^*1*^
-- ^*1*^ ¡liibre! laboratório independente de informática da biodiversidade e reprodutibilidade em ecologia
+- "Andrea Sánchez-Tapia ^*1*^, Sara R. Mortara^*1*^"
+- ^*1*^ ¡liibre! laboratório independente de informática da biodiversidade e reprodutibilidade
+  em ecologia
 date: "July 7th 2022"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 abstract: |
   it will be worth reading the report
+bibliography: AED.bib
+csl: "journal-of-ecology.csl"
 ---
 
 ```{r setup, include=FALSE}
@@ -59,4 +63,14 @@ knitr::include_graphics("../figs/02_species_abundance.png")
 
 ## Discussion
 
-It is time to synthesize your results and relate your findings with theory. 
+It is time to synthesize your results and relate your findings with theory.
+
+
+## Citing
+
+I will cite @zuur_protocol_2010 here
+
+
+## References
+
+<div id = "refs">
